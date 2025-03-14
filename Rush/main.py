@@ -1,7 +1,6 @@
 def print_chessboard_with_pieces():
     size = 8  # Define the size of the chessboard (8x8)
     king_position = (0, 0)  # Position of the King
-    king_position2 = (1, 0)
     rook_position = (0, 1)  # Position of the Rook
     pawn_position = (1, 2)  # Position of the Pawn
     bishop_position = (2, 2)  # Position of the Bishop
@@ -102,7 +101,6 @@ if __name__ == "__main__":
     def print_chessboard_with_pieces():
         size = 8
     king_position = (0, 0)  # position of King
-    king_position2 = (1, 0)
     rook_position = (0, 1)  # position of Rook
     pawn_position = (1, 2)  # position of Pawn
     bishop_position = (2, 2)  # position of Bishop
